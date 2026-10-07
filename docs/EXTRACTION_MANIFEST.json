@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-07",
+  "source": "C:/Projects/LGP/apps/web",
+  "copied": [
+    {
+      "file": "app/Services/Consultation/BookingAvailability.php",
+      "sha256": "6aeefd09815c48a0ae4109fb7ae37de3b0093d9e54b4740daf9fcedd417d3bd5"
+    },
+    {
+      "file": "app/Services/Consultation/BookingConfiguration.php",
+      "sha256": "53fa4f8a872974c114a6c7c6e2c06b7f3577ec33c877c681fd296dd088fb5258"
+    },
+    {
+      "file": "app/Services/Consultation/CalendarMutex.php",
+      "sha256": "a76a743565c6d370111003e4c3595d7505c530a045b0a8aa08b44249fc2fc6a4"
+    },
+    {
+      "file": "app/Services/Consultation/ConsultationSessionManager.php",
+      "sha256": "f1ea5e6479f87d56fa42e98b336076290ac28ab4616d7765120646c6de05a481"
+    },
+    {
+      "file": "app/Services/Consultation/GoogleCalendarProvider.php",
+      "sha256": "3e6bf16539c635683d0d8ec48de4403afc32224ca9d4b6d0c2fe6b8dd70df924"
+    },
+    {
+      "file": "app/Services/Consultation/ReserveConsultation.php",
+      "sha256": "5942f3f119cdbe5727f9c3fb93676ee0d08ba78ad29c3e246811c7e8801c2f70"
+    },
+    {
+      "file": "app/Services/Consultation/SignedBookingReference.php",
+      "sha256": "ce3f36e119f3bd9618c01949880ccb1d31ddc4c0e75997f949eccd8983ed5eec"
+    },
+    {
+      "file": "app/Services/Consultation/SlotPolicy.php",
+      "sha256": "f3f4728359121714c51e2ad106a1f516e93554f648f0441987789dceea56ed86"
+    },
+    {
+      "file": "app/Data/Consultation/BookingDetails.php",
+      "sha256": "054d03f60466ea9c1284392838f3ef3bbbb6b78fa072a619c7ec2f32f4497bd6"
+    },
+    {
+      "file": "app/Data/Consultation/BookingProfile.php",
+      "sha256": "90598aa02e8a3bfeeb78b53fa229234cf139297186297ea3c086482fe3cbc607"
+    },
+    {
+      "file": "app/Data/Consultation/BookingRetry.php",
+      "sha256": "277575e28ee52388349ef984688219d81f2e6e102f57e3572e0e4b0276773f32"
+    },
+    {
+      "file": "app/Data/Consultation/BusyWindow.php",
+      "sha256": "ef110c9a27fd13a2cb9a7dcb8c3a2f4ee015ce073001f0d29b8e4bb6a068c97c"
+    },
+    {
+      "file": "app/Data/Consultation/CalendarEvent.php",
+      "sha256": "3bf0f8f0a926db8849cd6657f794fa9579067434b22e5241678303264807d16d"
+    },
+    {
+      "file": "app/Contracts/Consultation/CalendarProvider.php",
+      "sha256": "0c6082bbb2ea781a5b5b03f932da8144979041c714837075054bb116018e438b"
+    },
+    {
+      "file": "app/Http/Requests/Consultation/AvailabilityRequest.php",
+      "sha256": "27a95a8c5db26318967816f668583b6aedf36d8bad4c929f67014f7e095003e1"
+    },
+    {
+      "file": "app/Http/Requests/Consultation/BookConsultationRequest.php",
+      "sha256": "45b40ae6091527c0929c3f4873651b7bdf2b21f0b7172f9f0f47ea62244fdfaf"
+    },
+    {
+      "file": "app/Http/Controllers/Controller.php",
+      "sha256": "25d1c1ef8e6cc8a376553faacfba2b07d9dfaee9bdbb84f14f77517580e9deb1"
+    },
+    {
+      "file": "app/Http/Controllers/ConsultationController.php",
+      "sha256": "0688451b2f6ae6e4e9ecbd0100dd9036224c5dad12fac897c0474b2855dfe600"
+    },
+    {
+      "file": "app/Http/Middleware/ConsultationSession.php",
+      "sha256": "9b7e037034c06e433ae62f6f44450f4048da9845da2a4bf9e5d1071ac7d3d83a"
+    },
+    {
+      "file": "app/Http/Middleware/ConsultationThrottle.php",
+      "sha256": "4fc5ca9f4c618838f4d9f6ceb6613f2c091443dfa4221e8178a4911d2f5f8d7c"
+    },
+    {
+      "file": "app/Providers/ConsultationServiceProvider.php",
+      "sha256": "8121a4dea6a9ca9a7a4585f4152dcb3fa5b613c486ad3e69c0b3cb404a694c12"
+    },
+    {
+      "file": "app/Enums/ConsultationEventState.php",
+      "sha256": "7a80962b9651d64ef202a1516213b1e5bed963662168983a7e7402a5072bf8b4"
+    },
+    {
+      "file": "app/Exceptions/ConsultationProblem.php",
+      "sha256": "845735f42006ec3c175e4298529a062c4f672d707d3f003eab256030be2b4948"
+    },
+    {
+      "file": "app/Exceptions/ConsultationWriteUncertain.php",
+      "sha256": "0163e99c5b132b714578c8ed90b5980099342ec1e67171ddb65c33ba46ad14a2"
+    },
+    {
+      "file": "config/consultation.php",
+      "sha256": "49a842570e4184b180bdef3c5cf79270d87a94342c37b722bb99178a088128de"
+    },
+    {
+      "file": "routes/consultation.php",
+      "sha256": "29e916bbd9cb1a14dda525e53b765b3a92399d31312b4be49fc8dc6b40732470"
+    },
+    {
+      "file": "resources/js/pages/welcome.tsx",
+      "sha256": "209cd8af17880474db645ba0f5ca1022418d87d0120b7f0ca1d0d8690b5cf954"
+    },
+    {
+      "file": "resources/js/pages/welcome.css",
+      "sha256": "ff1542d3707d0b6e5470e661563efe29408a9658bb8abc36bcd962f0219699a8"
+    },
+    {
+      "file": "resources/js/pages/welcome/consultation-booking.tsx",
+      "sha256": "45ede1fcf22eec2f20f7ea864dbdc7b2204f4c650a9ec523006d14db6f71786e"
+    },
+    {
+      "file": "resources/js/pages/welcome/consultation-api.ts",
+      "sha256": "b9b63158e82abfa9f0afffdb18e869f97339b0ff098937541ca25f925eb37da3"
+    },
+    {
+      "file": "public/.htaccess",
+      "sha256": "b7e379c77639fd56144947dbae84c84eb466d9c686ea81f2f013ae85421da923"
+    },
+    {
+      "file": "public/favicon.ico",
+      "sha256": "4606a56e6ef3f5ec39201497f57069d5457ce9cea25227134d0ba378788e9070"
+    },
+    {
+      "file": "public/favicon.svg",
+      "sha256": "242f4f8f93f5fbc6c8aeec500c9bac02dcfe68daba166d484c5cdc986c88d8ee"
+    },
+    {
+      "file": "public/apple-touch-icon.png",
+      "sha256": "4001aa032ff113e1a268a9bbf1ab0fd9949439f9f54a85895956eb323aba977d"
+    },
+    {
+      "file": "public/robots.txt",
+      "sha256": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f"
+    },
+    {
+      "file": "tests/Support/FakeConsultationCalendar.php",
+      "sha256": "cf3a696b69523aed900ef73259fea4b6cfa2614563539c841303ed6d757a2d29"
+    },
+    {
+      "file": "tests/Feature/Consultation/ConsultationBookingTest.php",
+      "sha256": "8846cf95816d916da63f74399ccbfe76b801eb03fab7a2a9176b534bee2a4559"
+    },
+    {
+      "file": "tests/Unit/Consultation/SlotPolicyTest.php",
+      "sha256": "7e6b8a1724b596ea223c72de263936d83e3a10a34397ac07b3d73cb9659b40f5"
+    },
+    {
+      "file": "tests/Feature/Consultation/GoogleCalendarProviderTest.php",
+      "sha256": "211435b44b4ec3dcb6b149626f4a103a994ebf6cfa899fb5bac98d4b548ef5a7"
+    }
+  ]
+}

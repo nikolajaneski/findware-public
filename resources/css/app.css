@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+@import '@fontsource/instrument-sans/400.css';
+@import '@fontsource/instrument-sans/500.css';
+@import '@fontsource/instrument-sans/600.css';
+
+@source '../views';
+
+@theme {
+    --font-sans: 'Instrument Sans', sans-serif;
+}
+
+@layer base {
+    html {
+        background: #f9fbf8;
+        color-scheme: light;
+    }
+    body {
+        margin: 0;
+        color: #191b1d;
+        background: #f9fbf8;
+    }
+}

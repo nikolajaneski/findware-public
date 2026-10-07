@@ -1,0 +1,40 @@
+{
+    "name": "findward",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build && node tools/prerender.mjs",
+        "types:check": "tsc --noEmit",
+        "format:check": "prettier --check resources/js/app.tsx resources/css/app.css vite.config.ts",
+        "check": "npm run types:check && npm run format:check",
+        "test:browser": "node tests/Browser/public-site.mjs",
+        "package:hostinger": "node tools/package-hostinger.mjs"
+    },
+    "dependencies": {
+        "react": "19.2.8",
+        "react-dom": "19.2.8",
+        "@inertiajs/react": "3.6.1",
+        "lucide-react": "0.475.0",
+        "@fontsource/instrument-sans": "5.3.0"
+    },
+    "devDependencies": {
+        "@types/node": "22.20.1",
+        "@types/react": "19.2.18",
+        "@types/react-dom": "19.2.4",
+        "vite": "8.2.1",
+        "@vitejs/plugin-react": "5.2.0",
+        "laravel-vite-plugin": "3.1.3",
+        "@tailwindcss/vite": "4.3.3",
+        "tailwindcss": "4.3.3",
+        "babel-plugin-react-compiler": "1.0.0",
+        "typescript": "5.9.3",
+        "prettier": "3.9.6",
+        "rolldown": "1.2.3",
+        "playwright": "1.62.1",
+        "fflate": "0.8.2"
+    },
+    "engines": {
+        "node": "^20.19.0 || >=22.12.0"
+    }
+}

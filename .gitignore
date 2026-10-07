@@ -1,0 +1,16 @@
+/vendor/
+/node_modules/
+/public/build/
+/public/hot
+/deployment/
+.env
+.env.*
+!.env.example
+/bootstrap/cache/*.php
+/storage/**/*.json
+/storage/framework/consultation/
+/storage/framework/cache/data/
+/storage/framework/views/*.php
+/storage/logs/*.log
+.phpunit.cache/
+/bootstrap/prerender/
