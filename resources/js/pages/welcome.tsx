@@ -348,10 +348,7 @@ function ConsultationView({ onBack }: { onBack: () => void }) {
                 />
             </Head>
             <header className="lgp-booking-header">
-                <span className="lgp-brand">
-                    <span aria-hidden="true" />
-                    findward
-                </span>
+                <span className="lgp-brand">findward</span>
                 <button
                     className="lgp-booking-back"
                     onClick={onBack}

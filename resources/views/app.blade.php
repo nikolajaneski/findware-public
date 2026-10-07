@@ -9,9 +9,7 @@
         @else
             <title data-inertia>{{ $publicPage === 'consultation' ? 'Free 20-minute consultation' : 'Tailored campaigns to find your next clients' }} - findward</title>
         @endif
-        <link rel="icon" href="/favicon.ico" sizes="any">
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <link rel="icon" href="data:,">
         @viteReactRefresh
         {{-- Explicit page CSS prevents unstyled first paint in both development and production. --}}
         @vite(['resources/css/app.css', 'resources/js/pages/welcome.css', 'resources/js/app.tsx'])

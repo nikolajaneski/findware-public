@@ -25,7 +25,7 @@ for (const item of ['app', 'config', 'routes', 'resources/views', 'artisan', 'co
 for (const item of ['bootstrap/app.php', 'bootstrap/providers.php']) await add(item, 'findward-app/' + item);
 for (const dir of ['bootstrap/cache', 'storage/app/private', 'storage/framework/cache/data', 'storage/framework/sessions', 'storage/framework/consultation', 'storage/framework/views', 'storage/logs']) entries['findward-app/' + dir + '/.gitignore'] = new TextEncoder().encode('*\n!.gitignore\n');
 if (!sourceOnly) await add('vendor', 'findward-app/vendor');
-for (const item of ['build', '.htaccess', 'favicon.ico', 'favicon.svg', 'apple-touch-icon.png', 'robots.txt']) await add('public/' + item, 'public_html/' + item);
+for (const item of ['build', '.htaccess', 'robots.txt']) await add('public/' + item, 'public_html/' + item);
 const controller = await readFile(path.join(root, 'public/index.php'), 'utf8');
 const marker = '$appRoot = dirname(__DIR__);';
 if (!controller.includes(marker)) throw new Error('Front-controller layout changed; review the package path.');
